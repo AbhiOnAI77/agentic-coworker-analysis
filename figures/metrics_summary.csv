@@ -1,0 +1,4 @@
+Memory Architecture,Mean ARR (bits/task),Final Reward (last 50),PCT (tasks),Pre-Drift Reward,Post-Drift Reward,Recovery Delta
+Recency,0.0006,0.3362,>1000,0.3235,0.33,0.0064
+Frequency,0.0007,0.2518,>1000,0.3223,0.2966,-0.0257
+Hybrid,0.0007,0.2762,>1000,0.3299,0.3144,-0.0155
