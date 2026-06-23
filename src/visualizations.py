@@ -125,8 +125,9 @@ def plot_ambiguity_heatmap(
             for spine in ax.spines.values():
                 spine.set_visible(False)
 
-    plt.colorbar(im, ax=axes[:, -1], label="Ambiguity", fraction=0.03)
-    plt.tight_layout()
+    plt.tight_layout(rect=[0, 0, 0.92, 0.95])
+    cbar_ax = fig.add_axes([0.93, 0.15, 0.015, 0.7])
+    fig.colorbar(im, cax=cbar_ax, label="Ambiguity")
     _save(fig, "fig1_ambiguity_heatmap.png")
 
 
